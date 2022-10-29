@@ -1,0 +1,25 @@
+DiGraph {
+	rankdir=LR
+
+	start -> A 
+	start[peripheries=0]
+	A -> B [label=0]
+	A -> A [label=1]
+
+	B -> C [label=0]
+	B -> E [label=1]
+
+	C -> DFH [label=0]
+	C -> E [label=1]
+
+	DFH -> DFH [label=0]
+	DFH -> DFH [label=1]
+	DFH [peripheries=2]
+
+	E -> G [label=0]
+	E -> A [label=1]
+
+	G -> E [label=0]
+	G -> DFH [label=1]
+	G [peripheries=2]
+}

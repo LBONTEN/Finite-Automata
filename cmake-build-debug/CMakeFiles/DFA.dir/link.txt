@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DFA.dir/src/main.cpp.o CMakeFiles/DFA.dir/src/DFA.cpp.o CMakeFiles/DFA.dir/src/Node.cpp.o CMakeFiles/DFA.dir/src/helpers.cpp.o  -o DFA 
